@@ -1,0 +1,94 @@
+
+h1 {
+    display: block;
+    font-size: 2em;
+    
+    color: var(--theme-ui-colors-text,#121212);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 32px;
+    
+    
+    
+    margin-right:650px ;
+    text-align: justify;
+        display: block;
+    font-size: 48px;
+    line-height: 1.7;
+    word-spacing: 10px;
+    
+}
+.pp
+{
+       background-color: var(--theme-ui-colors-primary,#6200EE);
+       color: aliceblue;
+        line-height: 1.7;
+}
+.bodyy
+{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 220px ;
+    background-color: var(--theme-ui-colors-background,#f4f5f2);
+}
+.rr
+{
+        color: var(--theme-ui-colors-text,#121212);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 24px;
+    margin-right:650px ;
+    text-align: justify;
+}
+button {
+  background-color: black;
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement interne du bouton */
+  text-align: center;
+  text-decoration: none; /* Supprime le soulignement du texte */
+  display:flex;
+  justify-content: space-around;
+  font-size: 20px; /* Taille de la police du texte */
+  cursor: pointer; /* Curseur au survol du bouton */
+  border-radius: 6px;
+  
+}
+
+/* Styles pour le survol du bouton */
+button:hover {
+  background-color:#6200EE; /* Couleur de fond au survol */
+}
+.tab{
+    margin-top: 50px;
+    text-align: justify;
+}
+.h22{
+    color: var(--theme-ui-colors-text,#121212);
+    font-family: inherit;
+    font-weight: 450;
+    font-size: 20px;
+}
+.ay{
+   color: #121212;
+
+}
+.ay:hover
+{
+    color: #6200EE;
+}
+.aa
+{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.aa:hover{
+    color: #6200EE;
+}
+.tabb
+{
+    margin-right: 300px;
+    font-size: 15px;
+      display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Trois colonnes avec largeur égale */
+  grid-gap: 40px; /* Espacement entre les colonnes */
+}

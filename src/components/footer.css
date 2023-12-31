@@ -1,0 +1,286 @@
+   body
+   { 
+    margin-left: -200px;
+    margin-right: -200px ;
+    font-family: "Avenir Next", system-ui, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    color: black;
+    background-color: var(--theme-ui-colors-background,#f4f5f2);
+    
+   }
+   body.night-mode {
+  background-color: #333;
+  color: #fff;
+}
+.block
+{
+display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows with equal height */
+  gap: 20px; /* Adjust the gap between grid items according to your preference */
+  margin-right: 100px;
+  margin-left: 250px;
+  text-align: justify;
+  font-size: 12px;
+
+}
+.logo
+{
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.logo:hover
+{
+    color: blueviolet;
+}
+
+.aa
+{
+    
+color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+aa:hover
+{
+     color: purple;
+}
+.Ab
+{ 
+    margin-top: -70px;
+    margin-left: -150px;
+    margin-right: -150px ;
+}
+/* Navbar.css */
+.navbar {
+    
+  padding: 10px 20px;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-item a:hover {
+ color: blueviolet;
+}
+.navbar
+{
+    margin-top: 30px;
+    margin-left: 210px;
+    margin-right: 150px ;
+}
+.Footer
+{
+    
+             margin-left: -520px;
+             
+}
+.Footerr
+{
+    margin-top: -15px;
+    font-size: 14px;
+             
+}
+ 
+             
+    /* App.css */
+
+    .Bodyt
+   { 
+    margin-left: 250px;
+    margin-right: 200px ;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    font-family: "Avenir Next", system-ui, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    color: black;
+    background-color: var(--theme-ui-colors-background,#f4f5f2);
+   }
+
+  .h1pub
+  {
+    color: var(--theme-ui-colors-text,#121212);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 32px;
+    display: block;
+  }
+.pgpub
+{
+  margin-top: 20px ;
+  margin-right:   180px ;
+  text-align: justify;
+  margin-bottom:20px ;
+}
+.linkk
+{
+  text-decoration: none;
+  color: #121212;
+}
+.linkk:hover
+{
+  color: blueviolet;
+}
+.linke
+{
+  
+  color: #121212;
+}
+.linke:hover{
+  color: blueviolet;
+}
+.sp
+{
+  font-size: 12px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+.pgini
+{
+  text-align: justify;
+}
+.linkini
+{
+  display: flex;
+  justify-content: flex-start;
+    text-align: justify;
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+font-size: 24px;
+}
+.linkini:hover
+{
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.divini
+{
+  margin-top: 50px;
+   width: 45%; /* Set the width to 45% to fit two boxes in a row with some spacing */
+    height: 100px;
+    margin: 10px;/* Add some spacing between the divs */
+     margin-top: 50px;
+      margin-bottom: 80px;
+     padding: 40px;
+     
+}
+
+.bigini
+{
+      display: flex; 
+      flex-wrap: wrap;
+      margin-top: -60px;
+      margin-bottom: 40px;
+      margin-left: -50px;
+
+}
+.bbt
+{
+  border-radius: 7px;
+  background-color: var(--theme-ui-colors-text,#121212);
+   
+    font-size: 12px;
+}
+.h2yt
+{
+      color: var(--theme-ui-colors-text,#121212);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 30px ;
+   
+}
+.violetbox
+{
+   margin-top: 30px ;
+      box-sizing: border-box;
+    
+    min-width: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    color: var(--theme-ui-colors-background,#f4f5f2);
+    background-color: var(--theme-ui-colors-primary,#6200EE);
+}
+.linky
+{
+
+  font-size: 21px;
+  font-weight: 410;
+  text-decoration: none;
+  color: #121212;
+      display: flex;
+  justify-content: flex-start;
+}
+.linky:hover
+{
+  color: #6200EE;
+}
+.linkerr
+{
+display: flex;
+  justify-content: flex-start;
+  margin-top: 7px;
+}
+.linker
+{
+  margin-top: 50px;
+}
+
+
+.bigler {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 4 columns with equal width */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows with equal height */
+  gap: 20px; /* Adjust the gap between grid items according to your preference */
+  margin-right:  50px;
+  margin-left:  70px;
+  text-align: justify;
+  font-size: 12px;
+  margin-bottom: 20px;
+  
+}
+.biglerr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 4 columns with equal width */
+  grid-template-rows: repeat(1, 1fr); /* 2 rows with equal height */
+  gap: 20px; /* Adjust the gap between grid items according to your preference */
+  margin-right:  50px;
+  margin-left:  70px;
+  text-align: justify;
+  font-size: 12px;
+  margin-bottom: 30px;
+  
+}

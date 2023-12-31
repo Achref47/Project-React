@@ -1,0 +1,91 @@
+
+ body
+   { 
+       margin-left: -200px;
+    margin-right: -200px ;
+    font-family: "Avenir Next", system-ui, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    color: black;
+    background-color: var(--theme-ui-colors-background,#f4f5f2);
+    
+   }
+
+.Abb
+{
+  display: flex;
+  align-items: flex-start;
+  font-size: 30px;
+  font-weight: 450;
+}
+
+.Abbb
+{
+      color: var(--theme-ui-colors-text,#121212);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 24px;
+text-align: justify;    
+}
+.Abbb{
+  
+      display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+    --theme-ui-colors-text: var(--theme-ui-colors-text,#121212);
+    --theme-ui-colors-primary: var(--theme-ui-colors-primary,#6200EE);
+    --theme-ui-colors-secondary: var(--theme-ui-colors-secondary,#c0c);
+    --theme-ui-colors-highlight: var(--theme-ui-colors-highlight,#e0e);
+    color: var(--theme-ui-colors-text,#121212);
+        background-color: var(--theme-ui-colors-background,#f4f5f2);
+
+}
+body {
+       margin-left: -200px;
+    margin-right: -200px ;
+    font-family: "Avenir Next", system-ui, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 100vh;
+    background-color: var(--theme-ui-colors-background,#f4f5f2);
+}
+body.night-mode {
+  background-color: #333;
+  color: #fff;
+
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    display: block;
+    margin: 8px;
+    background-color: var(--theme-ui-colors-background,#f4f5f2);
+}
+ body
+   { 
+    
+    margin-left: -200px;
+    margin-right: -200px ;
+    font-family: "Avenir Next", system-ui, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    color: black;
+    background-color: var(--theme-ui-colors-background,#f4f5f2);
+    
+   }

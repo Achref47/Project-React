@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+    --theme-ui-colors-text: var(--theme-ui-colors-text,#121212);
+    --theme-ui-colors-background: var(--theme-ui-colors-background,#f4f5f2);
+    --theme-ui-colors-primary: var(--theme-ui-colors-primary,#6200EE);
+    --theme-ui-colors-secondary: var(--theme-ui-colors-secondary,#c0c);
+    --theme-ui-colors-highlight: var(--theme-ui-colors-highlight,#e0e);
+    --theme-ui-colors-muted: var(--theme-ui-colors-muted,#f6f6ff);
+    color: var(--theme-ui-colors-text,#121212);
+        background-color: var(--theme-ui-colors-background,#f4f5f2);
+
+}
+body {
+    margin: 0px auto;
+    font-family: "Avenir Next", system-ui, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 100vh;
+            background-color: var(--theme-ui-colors-background,#f4f5f2);
+
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    display: block;
+            background-color: var(--theme-ui-colors-background,#f4f5f2);
+
+    margin: 8px;
+}
+ body
+   { margin: 0px auto;
+    font-family: "Avenir Next", system-ui, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    color: black;
+    background-color: var(--theme-ui-colors-background,#f4f5f2);
+    
+   }
+
+div#root {
+    background-color: #f4f5f2;
+}
